@@ -25,5 +25,5 @@ hs_err_pid*
 .git/
 .idea/
 compactatlas.iml
-.initModelsData/data/
-.target/
+initModelsData/data/
+target/
