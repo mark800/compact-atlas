@@ -1,0 +1,10 @@
+
+################# this content is from airflow's DAG config file ###############
+
+    [dwd_poke_open_close_install_stay_app_log, dwd_poke_lounge_app_log,
+     dwd_poke_mv_app_log] >> dws_poke_user_active
+
+    [dws_poke_user_active, dwd_poke_sing_app_log] >> dws_poke_sing_user_info_count
+
+    [dwd_poke_open_close_install_stay_app_log, dws_poke_user_active] >> dws_poke_app_launch_duration
+

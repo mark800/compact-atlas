@@ -1,0 +1,103 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+body {
+  font-family: Source Sans Pro, sans-serif;
+  background-color: #f6f7fb;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.42857143; }
+
+.login-body {
+  height: 100vh;
+  padding-top: calc(50vh - 206px); }
+  .login-body .login-form {
+    padding: 60px;
+    width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 0px 3px 0px rgba(128, 128, 128, 0.2); }
+    .login-body .login-form h4 {
+      font-size: 16px;
+      margin-bottom: 24px; }
+    .login-body .login-form img {
+      height: 65px;
+      padding: 6px;
+      margin-bottom: 28px; }
+    .login-body .login-form .icon-group {
+      position: relative;
+      margin-bottom: 24px; }
+      .login-body .login-form .icon-group.user:after {
+        content: "\f007"; }
+      .login-body .login-form .icon-group.password:after {
+        content: "\f023"; }
+      .login-body .login-form .icon-group .show-password, .login-body .login-form .icon-group:after {
+        position: absolute;
+        left: 4px;
+        bottom: 4px;
+        font-family: FontAwesome;
+        font-size: 16px;
+        background: transparent;
+        height: 34px;
+        width: 38px;
+        line-height: 34px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-right: 1px solid #ccc; }
+      .login-body .login-form .icon-group.text .show-password {
+        color: #38bb9b; }
+      .login-body .login-form .icon-group .show-password {
+        right: 4px;
+        border: none;
+        left: auto;
+        cursor: pointer; }
+      .login-body .login-form .icon-group input {
+        height: auto;
+        padding: 10px 12px 10px 52px;
+        background: transparent;
+        border-radius: 0px;
+        border-width: 1px; }
+        .login-body .login-form .icon-group input#password {
+          padding-right: 37px; }
+        .login-body .login-form .icon-group input:focus {
+          border-image-source: #38bb9b;
+          border-width: 2px;
+          border-image-slice: 5;
+          border-image-source: -moz-linear-gradient(-45deg, #38bb9b 0%, #4a90e2 100%);
+          border-image-source: -webkit-linear-gradient(-45deg, #38bb9b 0%, #4a90e2 100%);
+          border-image-source: linear-gradient(135deg, #38bb9b 0%, #4a90e2 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#38bb9b', endColorstr='#4a90e2', GradientType=1);
+          box-shadow: none;
+          -webkit-box-shadow: none; }
+    .login-body .login-form button.btn-login {
+      padding: 10px 12px;
+      background: #38bb9b;
+      background: -moz-linear-gradient(-45deg, #38bb9b 0%, #4a90e2 100%);
+      background: -webkit-linear-gradient(-45deg, #38bb9b 0%, #4a90e2 100%);
+      background: linear-gradient(135deg, #38bb9b 0%, #4a90e2 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#38bb9b', endColorstr='#4a90e2', GradientType=1);
+      color: #fff;
+      margin-top: 32px;
+      border: none; }
+      .login-body .login-form button.btn-login:focus, .login-body .login-form button.btn-login:hover, .login-body .login-form button.btn-login:active, .login-body .login-form button.btn-login:active:focus, .login-body .login-form button.btn-login:active:hover {
+        background: #38bb9b;
+        background: -moz-linear-gradient(-45deg, #38bb9b 0%, #4a90e2 100%);
+        background: -webkit-linear-gradient(-45deg, #38bb9b 0%, #4a90e2 100%);
+        background: linear-gradient(135deg, #38bb9b 0%, #4a90e2 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#38bb9b', endColorstr='#4a90e2', GradientType=1);
+        color: #fff; }
